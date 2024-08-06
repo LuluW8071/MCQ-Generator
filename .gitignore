@@ -1,0 +1,8 @@
+# Environment Directory
+env
+
+# Secret Keys
+.env
+
+# Useless caches
+__pycache__
