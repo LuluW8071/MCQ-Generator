@@ -25,7 +25,7 @@ load_dotenv()
 GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
 
 # Setup Gemini LLM
-llm = ChatGoogleGenerativeAI(model="gemini-1.5-flash", temperature=0.5)
+llm = ChatGoogleGenerativeAI(model="gemini-1.5-flash", temperature=0.7)
 
 # Generate quiz prompt
 quiz_generation_prompt = PromptTemplate(

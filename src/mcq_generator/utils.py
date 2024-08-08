@@ -40,21 +40,23 @@ def extract_json(markdown_string):
 def get_table_data(cleaned_json):
     try:
         # Convert the quiz from a str to dict
-        quiz_dict = json.loads(cleaned_json)
-
+        data = json.loads(cleaned_json)
+        # print(data)
         quiz_data = []
 
-        # Loop through each question in the data
-        for question in data.values():
-            mcq = question['mcq']
-            options = question['options']
-            correct_value = question['correct']
-        
-            quiz_data.append({
-                "MCQ": mcq,
-                "CHOICES": options,
-                "CORRECT ANSWER": correct_value
-            })
+        # Loop through each dictionary in the list
+        for item in data:
+            # Each item is a dictionary with numeric keys
+            for key, question in item.items():
+                mcq = question.get('mcq')
+                options = question.get('options')
+                correct_value = question.get('correct')
+
+                quiz_data.append({
+                    "MCQ": mcq,
+                    "CHOICES": options,
+                    "CORRECT ANSWER": correct_value
+                })
 
         return quiz_data
 

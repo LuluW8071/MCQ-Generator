@@ -1,0 +1,6 @@
+MCQ,CHOICES,CORRECT ANSWER
+What is the key advantage of deep learning over traditional machine learning methods in handling unstructured data?,"{'a': 'Deep learning models require less data for training.', 'b': 'Deep learning models automatically learn features from raw data.', 'c': 'Deep learning models are faster to train.', 'd': 'Deep learning models are more accurate for structured data.'}",b
+Which of the following is NOT a key application area where deep learning has significantly improved performance?,"{'a': 'Speech recognition', 'b': 'Image classification', 'c': 'Database management', 'd': 'Autonomous systems'}",c
+What type of neural network is specifically designed for processing and analyzing image data?,"{'a': 'Recurrent Neural Networks (RNNs)', 'b': 'Convolutional Neural Networks (CNNs)', 'c': 'Generative Adversarial Networks (GANs)', 'd': 'Multilayer Perceptrons (MLPs)'}",b
+Which of the following NLP techniques excels at capturing the sequential and contextual nature of language?,"{'a': 'Support Vector Machines (SVMs)', 'b': 'Decision Trees', 'c': 'Recurrent Neural Networks (RNNs)', 'd': 'Naive Bayes'}",c
+What is a major challenge associated with training deep learning models?,"{'a': 'Limited availability of data', 'b': 'High computational cost', 'c': 'Lack of algorithms for complex tasks', 'd': 'Difficulty in interpreting model results'}",b
