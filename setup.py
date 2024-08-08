@@ -8,6 +8,6 @@ setup(
     description="A simple multiple-choice question generator for educational purposes",
     url="https://github.com/luluw/MCQ-Generator",
     packages=find_packages(),
-    install_requires=["openai", "langchain", "langchain-community",
-                      "streamlit", "ipykernel", "python-env", "PyPDF2"]
+    install_requires=["langchain", "langchain-community", "langchain-google-genai",
+                      "streamlit", "ipykernel", "python-dotenv", "ipywidgets", "PyPDF2"]
 )
