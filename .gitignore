@@ -4,5 +4,6 @@ env
 # Secret Keys
 .env
 
-# Useless caches
+# Useless caches and logs
 __pycache__
+logs
