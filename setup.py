@@ -2,9 +2,9 @@ from setuptools import find_packages, setup
 
 setup(
     name="MCQ-Generator",
-    version="0.0.1",
+    version="0.0.2",
     author="Shashin Maharjan",
-    author_email="shashinmaharjan@example.com",
+    author_email="shashinmaharjan@gmail.com",
     description="A simple multiple-choice question generator for educational purposes",
     url="https://github.com/luluw/MCQ-Generator",
     packages=find_packages(),
